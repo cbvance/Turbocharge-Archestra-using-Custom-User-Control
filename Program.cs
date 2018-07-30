@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SQLGridControl
+namespace testSQLGrid
 {
     static class Program
     {
@@ -15,7 +16,7 @@ namespace SQLGridControl
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run();
+            Application.Run(new Form1());
         }
     }
 }
